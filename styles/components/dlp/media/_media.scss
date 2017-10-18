@@ -1,0 +1,19 @@
+@import "default-variables";
+
+&-media {
+
+    @import 'content';
+    @import 'heading';
+    @import 'video';
+    @import 'videoWrapper';
+    @import 'videoContent';
+
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: $space-xxl;
+    margin-top: $space-xxl;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+    }
+}

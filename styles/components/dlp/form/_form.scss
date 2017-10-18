@@ -1,0 +1,16 @@
+&-form {
+    padding: $space-inset-l;
+    text-align: center;
+
+    @media all and (min-width: 768px) {
+        padding: $space-inset-xxl;
+    }
+
+
+    @import 'actions';
+    @import 'action';
+    @import 'content';
+    @import 'description';
+    @import 'heading';
+
+}

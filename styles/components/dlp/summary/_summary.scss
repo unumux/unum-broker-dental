@@ -1,0 +1,16 @@
+$component-form-background-color: $theme-base-2;
+
+&-summary {
+    @include full-bleed;
+    
+    // background-color: $component-form-background-color;
+    padding-bottom: $space-xl;
+    padding-top: $space-xl;
+
+    @import 'description';
+    @import 'heading';
+    @import 'icon';
+    @import 'subheading';
+    @import 'content';
+
+}
