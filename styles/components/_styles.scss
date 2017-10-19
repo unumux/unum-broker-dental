@@ -21,18 +21,6 @@ h1 {
 $component-card-icon-height: 140px;
 $component-card-icon-width: 140px;
 
-.card-1 {
-    background-image: url("http://fillmurray.com/200/200");
-}
-
-.card-2 {
-    background-image: url("http://fillmurray.com/200/200");
-}
-
-.card-3 {
-    background-image: url("http://fillmurray.com/200/200");
-}
-
 .card-1,
 .card-2,
 .card-3 {
@@ -40,5 +28,25 @@ $component-card-icon-width: 140px;
     height: $component-card-icon-height;
     margin: 0 auto $space;
     width: $component-card-icon-width;
+    background-color: $component-icon-background-color;
+}
 
+.icon-1,
+.icon-2,
+.icon-3 {
+    height: $component-card-icon-height;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+.icon-1 {
+    background-image: url("../../images/icon-ads.svg");
+}
+
+.icon-2 { 
+    background-image: url("../../images/icon-email.svg");
+}
+
+.icon-3 {
+    background-image: url("../../images/icon-webpage.svg"); 
 }

@@ -1,0 +1,19 @@
+.willow-card-grid {
+    justify-content: center;
+
+    @media screen and (min-width: 0px) {
+        justify-content: center;
+    }
+
+    @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+    }
+
+    &__item {
+        margin-right: 0;
+
+        @media screen and (min-width: 768px) {
+            margin-right: 1.6rem;
+        }
+    }
+}

@@ -64,7 +64,7 @@
     
     &__section {
         @include full-bleed;
-        background-color: $theme-base-2;
+        background-color: $component-heading-background-color;
         padding-bottom: 4rem;
         padding-top: 25rem;
 
@@ -82,7 +82,7 @@
         }
 
         &--description {
-            @include set-text-style($text-style-heading-3);            
+            @include set-text-style($text-style-heading-3);         
             
             font-weight: 200;
             text-align: center;
