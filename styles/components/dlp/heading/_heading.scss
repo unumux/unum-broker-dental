@@ -68,7 +68,15 @@
         @include full-bleed;
         background-color: $component-heading-background-color;
         padding-bottom: 4rem;
-        padding-top: 25rem;
+        padding-top: 34rem;
+
+        @media all and (min-width: 380px) {
+            padding-top: 30rem;
+        }
+
+        @media all and (min-width: 535px) {
+            padding-top: 25rem;
+        }
 
         @media all and (min-width: 768px) {
             padding-top: 20rem;
