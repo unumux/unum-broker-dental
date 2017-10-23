@@ -60,24 +60,26 @@
 
     &__description {
         @include set-text-style($text-style-heading-3);
+
+        font-weight: 500;
     }
     
     &__section {
         @include full-bleed;
         background-color: $component-heading-background-color;
         padding-bottom: 4rem;
-        padding-top: 30rem;
+        padding-top: 25rem;
 
         @media all and (min-width: 768px) {
             padding-top: 20rem;
         }
 
         @media all and (min-width: 828px) {
-            padding-top: 25rem;
+            padding-top: 22rem;
         }
         
         @media all and (min-width: 992px) {
-            padding-top: 22rem;
+            padding-top: 20rem;
 
         }
 
